@@ -16,5 +16,22 @@ age = 62
 print(age)
 
 # Перезапишите в age текущее значение переменной age + новое.
-age = age + 2
-print(age)
+new_age = age + 2
+print(new_age)
+
+# Создайте переменную is_student и присвойте ей значение True (логическое значение).
+is_student = True
+# Выведите значение переменной is_student на экран.
+print(True)
+
+# вывод с описанием
+print("Name: " + name)
+
+age = str(age)
+print("Age: " + age)
+
+new_age = str(new_age)
+print("New Age: " + new_age)
+
+is_student = str(is_student)
+print("Is Student: " + is_student)
